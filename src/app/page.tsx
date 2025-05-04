@@ -2,7 +2,28 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="p-8 sm:p-12 flex flex-col items-center justify-center min-h-screen">
+    <div className="flex flex-col min-h-screen">
+      <div 
+        className="relative flex flex-col items-center justify-center min-h-[100vh] w-full bg-cover bg-center px-8"
+        style={{ backgroundImage: 'url("/header-bg.svg")' }}
+      >
+        <div className="absolute inset-0 bg-black/30"></div>
+        <div className="relative z-10 text-center text-white">
+          <h1 className="text-5xl font-bold mb-4">Full Stack Developer</h1>
+          <p className="text-xl mb-8 max-w-2xl">
+            Passionate about creating innovative web solutions with cutting-edge technologies
+          </p>
+          <a 
+            href="/resume.pdf" 
+            className="inline-block bg-white text-blue-900 px-8 py-3 rounded-full font-semibold hover:bg-opacity-90 transition-colors"
+            target="_blank"
+          >
+            Download Resume
+          </a>
+        </div>
+      </div>
+
+      <div className="p-8 sm:p-12 flex flex-col items-center justify-center">
       <h1 className="text-3xl font-bold mb-6">Welcome to My Portfolio</h1>
       <p className="text-lg mb-8 text-center max-w-2xl">
         I'm Dipesh Adelkar, a passionate developer. Use the sidebar to navigate through my portfolio.
@@ -33,6 +54,7 @@ export default function Home() {
           </div>
         </div>
       </div>
+    </div>
     </div>
   );
 }

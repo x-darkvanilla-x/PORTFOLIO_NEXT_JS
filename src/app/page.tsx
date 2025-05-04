@@ -1,5 +1,7 @@
 import Image from "next/image";
 import ProjectCard from "@/components/ProjectCard";
+import SkillCard from "@/components/SkillCard";
+import TimelineItem from "@/components/TimelineItem";
 
 export default function Home() {
   return (
@@ -29,14 +31,6 @@ export default function Home() {
         <div className="max-w-4xl mx-auto">
           <h2 className="text-4xl text-left font-bold mb-6">About Me</h2>
           <div className="flex flex-col md:flex-row items-center gap-8">
-            {/* <div className="w-48 h-48 relative rounded-full overflow-hidden flex-shrink-0">
-              <Image
-                src="/profile.jpg"
-                alt="Dipesh Adelkar"
-                fill
-                className="object-cover"
-              />
-            </div> */}
             <div className="flex-1 space-y-4">
               <p className="text-left leading-relaxed">
                 Greetings, everyone! I am Dipesh Mahesh Adelkar, I was born in
@@ -70,7 +64,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="py-16 px-8 bg-white dark:bg-gray-800">
+      <section className="py-16 px-8 bg-white dark:bg-gray-900">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-4xl font-bold mb-8">My Projects</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -96,40 +90,72 @@ export default function Home() {
         </div>
       </section>
 
-      <div className="p-8 sm:p-12 flex flex-col items-center justify-center">
-        <h1 className="text-3xl font-bold mb-6">Welcome to My Portfolio</h1>
-        <p className="text-lg mb-8 text-center max-w-2xl">
-          I'm Dipesh Adelkar, a passionate developer. Use the sidebar to
-          navigate through my portfolio.
-        </p>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl">
-          <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md">
-            <h2 className="text-xl font-semibold mb-4">My Skills</h2>
-            <ul className="list-disc pl-5 space-y-2">
-              <li>Web Development</li>
-              <li>Mobile App Development</li>
-              <li>UI/UX Design</li>
-              <li>Cloud Services</li>
-            </ul>
-          </div>
-          <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md">
-            <h2 className="text-xl font-semibold mb-4">Featured Project</h2>
-            <p className="mb-4">
-              Check out my latest project in the Projects section of the
-              sidebar.
-            </p>
-            <div className="flex justify-center">
-              <Image
-                src="/next.svg"
-                alt="Project Preview"
-                width={150}
-                height={150}
-                className="dark:invert"
-              />
-            </div>
+      <section className="py-16 px-8 bg-gray-50 dark:bg-gray-900">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-4xl font-bold mb-8">My Skills</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <SkillCard
+              title="Frontend Development"
+              description="Expertise in React, Next.js, and modern CSS frameworks like Tailwind."
+              iconSrc="/next.svg"
+            />
+            <SkillCard
+              title="Backend Development"
+              description="Experience with Node.js, Express, and database management."
+              iconSrc="/file.svg"
+            />
+            <SkillCard
+              title="UI/UX Design"
+              description="Creating intuitive user interfaces and experiences using modern design principles and tools."
+              iconSrc="/window.svg"
+            />
+            <SkillCard
+              title="Mobile Development"
+              description="Building cross-platform mobile applications using React Native"
+              iconSrc="/globe.svg"
+            />
+            <SkillCard
+              title="Graphic Design"
+              description=" Skilled in Adobe Creative Suite (Photoshop, Illustrator, XD) and Figma for creating visually stunning designs."
+              iconSrc="/vercel.svg"
+            />
           </div>
         </div>
+      </section>
+
+      <section className="py-16 px-8 bg-white dark:bg-gray-900">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-4xl font-bold mb-8">My Journey</h2>
+          <div className="space-y-2">
+          <TimelineItem
+  icon="/globe.svg"
+  title="App Developer"
+  date="2024–2025"
+  description="Worked as a React Native Intern at Banao Technologies, where I developed and maintained cross-platform mobile applications using modern development practices."
+/>
+<TimelineItem
+  icon="/file.svg"
+  title="Freelance Graphic Designer"
+  date="2022–Present"
+  description="Designed promotional materials, branding assets, and visual content for various clients to strengthen their brand identity and market visibility."
+/>
+<TimelineItem
+  icon="/window.svg"
+  title="BSc in Information Technology"
+  date="2022–2025"
+  description="Completed a Bachelor's degree in Information Technology at Sahyog College, Thane, with a focus on web development, programming, and software engineering."
+/>
+<TimelineItem
+  icon="/window.svg"
+  title="Higher Education"
+  date="2021"
+  description="Completed HSC from MatoShree College of Science with major subjects in Physics, Chemistry, and Mathematics under the Maharashtra State Board."
+/>
+
+          </div>
+        </div>
+      </section>
+
       </div>
-    </div>
   );
 }

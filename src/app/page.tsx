@@ -1,4 +1,5 @@
 import Image from "next/image";
+import ProjectCard from "@/components/ProjectCard";
 
 export default function Home() {
   return (
@@ -25,7 +26,7 @@ export default function Home() {
       </div>
 
       <section className="py-16 px-8 bg-gray-50 dark:bg-gray-900">
-        <div className="max-w-4xl mx-auto text-center">
+        <div className="max-w-4xl mx-auto">
           <h2 className="text-4xl text-left font-bold mb-6">About Me</h2>
           <div className="flex flex-col md:flex-row items-center gap-8">
             {/* <div className="w-48 h-48 relative rounded-full overflow-hidden flex-shrink-0">
@@ -65,6 +66,32 @@ export default function Home() {
                 intellectual stimulation that coding offers.
               </p>
             </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="py-16 px-8 bg-white dark:bg-gray-800">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-4xl font-bold mb-8">My Projects</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <ProjectCard
+              title="Humm Care"
+              description="End-to-end healthcare and support for your employees, through each stage of family-building, women's health, employee assistance programs and condition management."
+              imageUrl="/projects/hummcare.jpg"
+              projectUrl="https://github.com/username/ecommerce"
+            />
+            <ProjectCard
+              title="Task Management App"
+              description="A React-based task management application with real-time updates and collaborative features."
+              imageUrl="/projects/taskapp.svg"
+              projectUrl="https://github.com/username/taskapp"
+            />
+            <ProjectCard
+              title="Portfolio Website"
+              description="A modern portfolio website built with Next.js and Tailwind CSS, featuring responsive design."
+              imageUrl="/projects/portfolio.svg"
+              projectUrl="https://github.com/username/portfolio"
+            />
           </div>
         </div>
       </section>

@@ -3,9 +3,13 @@ import Image from 'next/image';
 
 const Footer = () => {
   const socialLinks = [
-    { icon: '/github.svg', href: 'https://github.com', label: 'GitHub' },
-    { icon: '/linkedin.svg', href: 'https://linkedin.com', label: 'LinkedIn' },
-    { icon: '/instagram.svg', href: 'https://instagram.com', label: 'Instagram' },
+    { label: "GitHub", href: "https://github.com/x-darkvanilla-x", icon: "/github.svg" },
+    { label: "LinkedIn", href: "https://www.linkedin.com/in/dipesh-adelkar-378ba3256/", icon: "/linkedin.svg" },
+    {
+      label: "Instagram",
+      href: "https://www.instagram.com/x_darkvanilla_x",
+      icon: "/instagram.svg",
+    },
   ];
 
   return (

@@ -70,21 +70,21 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <ProjectCard
               title="Humm Care"
-              description="End-to-end healthcare and support for your employees, through each stage of family-building, women's health, employee assistance programs and condition management."
+              description="End-to-end healthcare and support, through each stage of family-building, women's health, employee assistance programs and condition management."
               imageUrl="/projects/hummcare.jpg"
-              projectUrl="https://github.com/username/ecommerce"
+              projectUrl="https://play.google.com/store/apps/details?id=hummcare.app&hl=en_IN&pli=1"
             />
             <ProjectCard
               title="Task Management App"
               description="A React-based task management application with real-time updates and collaborative features."
               imageUrl="/projects/taskapp.svg"
-              projectUrl="https://github.com/username/taskapp"
+              projectUrl="https://www.linkedin.com/posts/dipesh-adelkar-378ba3256_reactdevelopment-taskmanagement-visualappeal-activity-7202614170188488704-R6cT?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD8uJEwBEvPG7lAndAo0IuIGamk6yC-E3Xo"
             />
             <ProjectCard
-              title="Portfolio Website"
-              description="A modern portfolio website built with Next.js and Tailwind CSS, featuring responsive design."
+              title="Coaching Website"
+              description="A modern Coaching website built with React.js and Tailwind CSS, featuring responsive design."
               imageUrl="/projects/portfolio.svg"
-              projectUrl="https://github.com/username/portfolio"
+              projectUrl="https://ctbwebsite.netlify.app/"
             />
           </div>
         </div>

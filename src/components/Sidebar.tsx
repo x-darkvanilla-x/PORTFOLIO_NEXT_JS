@@ -32,17 +32,17 @@ const Sidebar = () => {
   const navLinks = [
     { name: "HOME", href: "/" },
     { name: "SKILLS", href: "/skills" },
+    { name: "BLOGS", href: "/blogs" },
     { name: "PROJECTS", href: "/projects" },
-    { name: "EDUCATION", href: "/education" },
   ];
 
   // Social media links
   const socialLinks = [
-    { name: "GitHub", href: "https://github.com", icon: "/github.svg" },
-    { name: "LinkedIn", href: "https://linkedin.com", icon: "/linkedin.svg" },
+    { name: "GitHub", href: "https://github.com/x-darkvanilla-x", icon: "/github.svg" },
+    { name: "LinkedIn", href: "https://www.linkedin.com/in/dipesh-adelkar-378ba3256/", icon: "/linkedin.svg" },
     {
       name: "Instagram",
-      href: "https://instagram.com",
+      href: "https://www.instagram.com/x_darkvanilla_x",
       icon: "/instagram.svg",
     },
   ];

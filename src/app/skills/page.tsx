@@ -7,16 +7,16 @@ export default function Skills() {
       description: "High-level programming language known for its readability.",
       iconSrc: "/skills/python.svg",
     },
-    {
-      title: "C",
-      description: "Powerful procedural programming language.",
-      iconSrc: "/skills/c.svg",
-    },
-    {
-      title: "C++",
-      description: "Extension of C with object-oriented features.",
-      iconSrc: "/skills/cpp.svg",
-    },
+    // {
+    //   title: "C",
+    //   description: "Powerful procedural programming language.",
+    //   iconSrc: "/skills/c.svg",
+    // },
+    // {
+    //   title: "C++",
+    //   description: "Extension of C with object-oriented features.",
+    //   iconSrc: "/skills/cpp.svg",
+    // },
     {
       title: "Java",
       description: "Object-oriented programming language used in many domains.",
@@ -67,11 +67,11 @@ export default function Skills() {
       description: "Fast and feature-rich JavaScript library for DOM manipulation.",
       iconSrc: "/skills/jquery.svg",
     },
-    {
-      title: "SCSS",
-      description: "Syntactically awesome style sheets – a CSS preprocessor.",
-      iconSrc: "/skills/scss.svg",
-    },
+    // {
+    //   title: "SCSS",
+    //   description: "Syntactically awesome style sheets – a CSS preprocessor.",
+    //   iconSrc: "/skills/scss.svg",
+    // },
     {
       title: "Material UI",
       description: "React UI framework implementing Google’s Material Design.",
@@ -80,12 +80,12 @@ export default function Skills() {
     {
       title: "React Native",
       description: "Framework for building native apps using React.",
-      iconSrc: "/skills/reactnative.svg",
+      iconSrc: "/skills/react.svg",
     },
     {
       title: "Node.js",
       description: "JavaScript runtime built on Chrome’s V8 engine for server-side development.",
-      iconSrc: "/skills/nodejs.svg",
+      iconSrc: "/skills/node.svg",
     },
     {
       title: "Express",
@@ -146,7 +146,7 @@ export default function Skills() {
     {
       "title": "MySQL",
       "description": "Popular open-source relational database management system.",
-      "iconSrc": "/skills/mysql.svg"
+      "iconSrc": "/skills/database.svg"
     }
   ]
 
@@ -159,12 +159,12 @@ export default function Skills() {
     {
       "title": "Adaptive Learning",
       "description": "Quick to grasp new concepts and adapt to changing environments.",
-      "iconSrc": "/skills/adaptive.svg"
+      "iconSrc": "/skills/education.svg"
     },
     {
       "title": "Creativity and Innovation",
       "description": "Ability to think outside the box and generate original ideas or solutions.",
-      "iconSrc": "/skills/creativity.svg"
+      "iconSrc": "/skills/window.svg"
     }
   ]
 

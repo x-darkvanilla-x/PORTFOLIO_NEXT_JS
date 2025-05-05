@@ -13,7 +13,7 @@ const TimelineItem: React.FC<TimelineItemProps> = ({ icon, title, date, descript
     <div className="flex gap-4 pb-8 last:pb-0 relative">
       <div className="relative">
         <div className="w-12 h-12 rounded-full bg-blue-100 dark:bg-blue-900 flex items-center justify-center relative z-10">
-          <Image src={icon} alt={title} width={24} height={24} className="dark:invert" />
+          <Image src={icon} alt={title} width={24} height={24} />
         </div>
         <div className="absolute top-12 bottom-0 left-1/2 -translate-x-1/2 w-0.5 bg-gray-200 dark:bg-gray-700 last:hidden"></div>
       </div>

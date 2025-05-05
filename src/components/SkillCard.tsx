@@ -10,7 +10,7 @@ export default function SkillCard({ title, description, iconSrc }: SkillCardProp
   return (
     <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
       <div className="flex items-start gap-4">
-        <div className="w-12 h-12 relative flex-shrink-0">
+        <div className="w-10 h-10 relative flex-shrink-0">
           <Image
             src={iconSrc}
             alt={`${title} icon`}

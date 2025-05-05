@@ -97,27 +97,27 @@ export default function Home() {
             <SkillCard
               title="Frontend Development"
               description="Expertise in React, Next.js, and modern CSS frameworks like Tailwind."
-              iconSrc="/next.svg"
+              iconSrc="/skills/next.svg"
             />
             <SkillCard
               title="Backend Development"
               description="Experience with Node.js, Express, and database management."
-              iconSrc="/file.svg"
+              iconSrc="/skills/file.svg"
             />
             <SkillCard
               title="UI/UX Design"
               description="Creating intuitive user interfaces and experiences using modern design principles and tools."
-              iconSrc="/window.svg"
+              iconSrc="/skills/window.svg"
             />
             <SkillCard
               title="Mobile Development"
               description="Building cross-platform mobile applications using React Native"
-              iconSrc="/globe.svg"
+              iconSrc="/skills/globe.svg"
             />
             <SkillCard
               title="Graphic Design"
               description=" Skilled in Adobe Creative Suite (Photoshop, Illustrator, XD) and Figma for creating visually stunning designs."
-              iconSrc="/vercel.svg"
+              iconSrc="/skills/vercel.svg"
             />
           </div>
         </div>
@@ -128,25 +128,25 @@ export default function Home() {
           <h2 className="text-4xl font-bold mb-8">My Journey</h2>
           <div className="space-y-2">
           <TimelineItem
-  icon="/globe.svg"
+  icon="/journey/globe.svg"
   title="App Developer"
   date="2024–2025"
   description="Worked as a React Native Intern at Banao Technologies, where I developed and maintained cross-platform mobile applications using modern development practices."
 />
 <TimelineItem
-  icon="/file.svg"
+  icon="/journey/window.svg"
   title="Freelance Graphic Designer"
   date="2022–Present"
   description="Designed promotional materials, branding assets, and visual content for various clients to strengthen their brand identity and market visibility."
 />
 <TimelineItem
-  icon="/window.svg"
+  icon="/journey/next.svg"
   title="BSc in Information Technology"
   date="2022–2025"
   description="Completed a Bachelor's degree in Information Technology at Sahyog College, Thane, with a focus on web development, programming, and software engineering."
 />
 <TimelineItem
-  icon="/window.svg"
+  icon="/journey/education.svg"
   title="Higher Education"
   date="2021"
   description="Completed HSC from MatoShree College of Science with major subjects in Physics, Chemistry, and Mathematics under the Maharashtra State Board."

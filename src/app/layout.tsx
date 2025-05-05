@@ -35,7 +35,7 @@ export const metadata = {
       openGraph: {
         title: "Skills - Dipesh Adelkar",
         description: "Discover the key skills and technologies that power Dipesh Adelkar’s work in web development and software engineering.",
-        image: "/assets/images/skills-og-image.jpg",  // replace with your actual image path
+        image: "/profile.jpg",  // replace with your actual image path
         url: "https://dipeshadelkar.vercel.app/skills",
       },
     },
@@ -45,7 +45,7 @@ export const metadata = {
       openGraph: {
         title: "Blogs - Dipesh Adelkar",
         description: "Stay updated with the latest tech trends, coding tutorials, and personal insights shared by Dipesh Adelkar.",
-        image: "/assets/images/blogs-og-image.jpg",  // replace with your actual image path
+        image: "/profile.jpg",  // replace with your actual image path
         url: "https://dipeshadelkar.vercel.app/blogs",
       },
     },
@@ -55,7 +55,7 @@ export const metadata = {
       openGraph: {
         title: "Projects - Dipesh Adelkar",
         description: "Explore the various projects by Dipesh Adelkar, highlighting his contributions to web and app development.",
-        image: "/assets/images/projects-og-image.jpg",  // replace with your actual image path
+        image: "/profile.jpg",  // replace with your actual image path
         url: "https://dipeshadelkar.vercel.app/projects",
       },
     },

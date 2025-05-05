@@ -85,7 +85,7 @@ const Sidebar = () => {
       {/* Sidebar */}
       <div
         className={`fixed top-0 left-0 h-full bg-white dark:bg-gray-900 shadow-lg transition-all duration-300 ease-in-out z-40 flex flex-col justify-between
-          ${isMobile ? (isOpen ? "w-64" : "w-0") : "w-64"} overflow-hidden`}
+          ${isMobile ? (isOpen ? "w-full" : "w-0") : "w-64"} overflow-hidden`}
       >
         <div className="flex flex-col items-center p-6 overflow-y-auto">
           {/* Profile section */}
@@ -134,6 +134,7 @@ const Sidebar = () => {
               {navLinks.map((link) => (
                 <li key={link.name} className="text-center">
                   <Link
+                    onClick={toggleSidebar}
                     href={link.href}
                     className="text-blue-600 hover:text-blue-800 dark:text-blue-400 dark:hover:text-blue-300 font-medium"
                   >
@@ -170,15 +171,6 @@ const Sidebar = () => {
           </div>
         </div>
       </div>
-
-      {/* Overlay for mobile */}
-      {isMobile && isOpen && (
-        <div
-          className="fixed inset-0 bg-black bg-opacity-50 z-30"
-          onClick={toggleSidebar}
-          aria-hidden="true"
-        />
-      )}
     </>
   );
 };

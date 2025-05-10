@@ -73,18 +73,21 @@ export default function Home() {
               description="End-to-end healthcare and support, through each stage of family-building, women's health, employee assistance programs and condition management."
               imageUrl="/projects/hummcare.jpg"
               projectUrl="https://play.google.com/store/apps/details?id=hummcare.app&hl=en_IN&pli=1"
+              tags={[]}
             />
             <ProjectCard
               title="Task Management App"
               description="A React-based task management application with real-time updates and collaborative features."
               imageUrl="/projects/taskapp.svg"
               projectUrl="https://www.linkedin.com/posts/dipesh-adelkar-378ba3256_reactdevelopment-taskmanagement-visualappeal-activity-7202614170188488704-R6cT?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD8uJEwBEvPG7lAndAo0IuIGamk6yC-E3Xo"
+              tags={[]}
             />
             <ProjectCard
               title="Coaching Website"
               description="A modern Coaching website built with React.js and Tailwind CSS, featuring responsive design."
               imageUrl="/projects/portfolio.svg"
               projectUrl="https://ctbwebsite.netlify.app/"
+              tags={[]}
             />
           </div>
         </div>
@@ -127,35 +130,33 @@ export default function Home() {
         <div className="max-w-4xl mx-auto">
           <h2 className="text-4xl font-bold mb-8">My Journey</h2>
           <div className="space-y-2">
-          <TimelineItem
-  icon="/journey/globe.svg"
-  title="App Developer"
-  date="2024–2025"
-  description="Worked as a React Native Intern at Banao Technologies, where I developed and maintained cross-platform mobile applications using modern development practices."
-/>
-<TimelineItem
-  icon="/journey/window.svg"
-  title="Freelance Graphic Designer"
-  date="2022–Present"
-  description="Designed promotional materials, branding assets, and visual content for various clients to strengthen their brand identity and market visibility."
-/>
-<TimelineItem
-  icon="/journey/next.svg"
-  title="BSc in Information Technology"
-  date="2022–2025"
-  description="Completed a Bachelor's degree in Information Technology at Sahyog College, Thane, with a focus on web development, programming, and software engineering."
-/>
-<TimelineItem
-  icon="/journey/education.svg"
-  title="Higher Education"
-  date="2021"
-  description="Completed HSC from MatoShree College of Science with major subjects in Physics, Chemistry, and Mathematics under the Maharashtra State Board."
-/>
-
+            <TimelineItem
+              icon="/journey/globe.svg"
+              title="App Developer"
+              date="2024–2025"
+              description="Worked as a React Native Intern at Banao Technologies, where I developed and maintained cross-platform mobile applications using modern development practices."
+            />
+            <TimelineItem
+              icon="/journey/window.svg"
+              title="Freelance Graphic Designer"
+              date="2022–Present"
+              description="Designed promotional materials, branding assets, and visual content for various clients to strengthen their brand identity and market visibility."
+            />
+            <TimelineItem
+              icon="/journey/next.svg"
+              title="BSc in Information Technology"
+              date="2022–2025"
+              description="Completed a Bachelor's degree in Information Technology at Sahyog College, Thane, with a focus on web development, programming, and software engineering."
+            />
+            <TimelineItem
+              icon="/journey/education.svg"
+              title="Higher Education"
+              date="2021"
+              description="Completed HSC from MatoShree College of Science with major subjects in Physics, Chemistry, and Mathematics under the Maharashtra State Board."
+            />
           </div>
         </div>
       </section>
-
-      </div>
+    </div>
   );
 }

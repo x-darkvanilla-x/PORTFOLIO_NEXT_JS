@@ -32,7 +32,7 @@ const Sidebar = () => {
   const navLinks = [
     { name: "HOME", href: "/" },
     { name: "SKILLS", href: "/skills" },
-    { name: "BLOGS", href: "/blogs" },
+    { name: "ABOUT", href: "/about" },
     { name: "PROJECTS", href: "/projects" },
   ];
 

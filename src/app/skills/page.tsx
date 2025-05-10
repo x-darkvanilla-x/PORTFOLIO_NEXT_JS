@@ -113,7 +113,7 @@ export default function Skills() {
     {
       title: "Git - GitHub",
       description: "Version control system for tracking code changes.",
-      iconSrc: "/skills/git.svg",
+      iconSrc: "/skills/github.svg",
     },
     {
       title: "VS Code",

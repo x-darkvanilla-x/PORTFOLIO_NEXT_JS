@@ -17,26 +17,28 @@ const ContactPage = () => {
   };
 
   useEffect(() => {
-    // Load Google Maps script
     const script = document.createElement('script');
     script.src = `https://maps.googleapis.com/maps/api/js?key=AIzaSyCyZYuKJc4YREy3ppZxlnODX_HL7sJlAbk`;
     script.async = true;
     script.defer = true;
-    script.onload = initMap;
+  
+    script.onload = () => {
+      if ((window as any).google && (window as any).google.maps) {
+        const location = { lat: 19.197222, lng: 72.972222 };
+        const map = new ((window as any).google.maps.Map)(document.getElementById('map'), {
+          center: location,
+          zoom: 13,
+        });
+      }
+    };
+  
     document.head.appendChild(script);
-
+  
     return () => {
       document.head.removeChild(script);
     };
   }, []);
-
-  const initMap = () => {
-    const location = { lat: 19.197222, lng: 72.972222 }; // Mumbai coordinates
-    const map = new google.maps.Map(document.getElementById('map'), {
-      center: location,
-      zoom: 13,
-    });
-  };
+  
 
   return (
     <div className="flex flex-col">

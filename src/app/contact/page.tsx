@@ -5,8 +5,8 @@ import Image from 'next/image';
 
 const ContactPage = () => {
   const contactInfo = {
-    phone: "+91 9876543210",
-    whatsapp: "+91 9876543210",
+    phone: "+91 9326228158",
+    whatsapp: "+91 9326228158",
     email: "dipesh.adelkar@gmail.com",
     location: "Thane, Maharashtra, India",
     socialLinks: [

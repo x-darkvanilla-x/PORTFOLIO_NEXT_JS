@@ -49,9 +49,10 @@ export default function Skills() {
     },
     {
       title: "Next.js",
-      description: "React framework for production-ready web applications with server-side rendering.",
+      description:
+        "React framework for production-ready web applications with server-side rendering.",
       iconSrc: "/skills/nextjs.svg",
-    },  
+    },
     {
       title: "Angular",
       description: "TypeScript-based web application framework by Google.",
@@ -59,19 +60,16 @@ export default function Skills() {
     },
     {
       title: "Bootstrap",
-      description: "CSS framework for responsive, mobile-first front-end development.",
+      description:
+        "CSS framework for responsive, mobile-first front-end development.",
       iconSrc: "/skills/bootstrap.svg",
     },
     {
       title: "jQuery",
-      description: "Fast and feature-rich JavaScript library for DOM manipulation.",
+      description:
+        "Fast and feature-rich JavaScript library for DOM manipulation.",
       iconSrc: "/skills/jquery.svg",
     },
-    // {
-    //   title: "SCSS",
-    //   description: "Syntactically awesome style sheets – a CSS preprocessor.",
-    //   iconSrc: "/skills/scss.svg",
-    // },
     {
       title: "Material UI",
       description: "React UI framework implementing Google’s Material Design.",
@@ -84,7 +82,8 @@ export default function Skills() {
     },
     {
       title: "Node.js",
-      description: "JavaScript runtime built on Chrome’s V8 engine for server-side development.",
+      description:
+        "JavaScript runtime built on Chrome’s V8 engine for server-side development.",
       iconSrc: "/skills/node.svg",
     },
     {
@@ -94,8 +93,21 @@ export default function Skills() {
     },
     {
       title: "Tailwind CSS",
-      description: "Utility-first CSS framework for rapidly building modern websites.",
+      description:
+        "Utility-first CSS framework for rapidly building modern websites.",
       iconSrc: "/skills/tailwind.svg",
+    },
+    {
+      title: "GSAP",
+      description:
+        "JavaScript animation library for building high-performance animations.",
+      iconSrc: "/skills/gsap.svg",
+    },
+    {
+      title: "NestJS",
+      description:
+        "Progressive Node.js framework for building efficient, scalable server-side applications.",
+      iconSrc: "/skills/nestjs.svg",
     },
   ];
 
@@ -107,7 +119,8 @@ export default function Skills() {
     },
     {
       title: "Canva",
-      description: "Online design tool for creating social media graphics, presentations, and more.",
+      description:
+        "Online design tool for creating social media graphics, presentations, and more.",
       iconSrc: "/skills/canva.svg",
     },
     {
@@ -117,7 +130,8 @@ export default function Skills() {
     },
     {
       title: "VS Code",
-      description: "Popular code editor by Microsoft with extensive extensions.",
+      description:
+        "Popular code editor by Microsoft with extensive extensions.",
       iconSrc: "/skills/vscode.svg",
     },
     {
@@ -127,7 +141,8 @@ export default function Skills() {
     },
     {
       title: "Excel",
-      description: "Spreadsheet tool by Microsoft for data analysis and visualization.",
+      description:
+        "Spreadsheet tool by Microsoft for data analysis and visualization.",
       iconSrc: "/skills/excel.svg",
     },
     {
@@ -135,38 +150,48 @@ export default function Skills() {
       description: "API testing and collaboration platform for developers.",
       iconSrc: "/skills/postman.svg",
     },
-  ];  
-  
+  ];
+
   const databases = [
     {
-      "title": "MongoDB",
-      "description": "NoSQL document database known for scalability and flexibility.",
-      "iconSrc": "/skills/mongodb.svg"
+      title: "MongoDB",
+      description:
+        "NoSQL document database known for scalability and flexibility.",
+      iconSrc: "/skills/mongodb.svg",
     },
     {
-      "title": "MySQL",
-      "description": "Popular open-source relational database management system.",
-      "iconSrc": "/skills/database.svg"
-    }
-  ]
+      title: "MySQL",
+      description: "Popular open-source relational database management system.",
+      iconSrc: "/skills/database.svg",
+    },
+    {
+      title: "PostgreSQL",
+      description:
+        "Advanced open-source relational database with strong SQL compliance and extensibility.",
+      iconSrc: "/skills/postgresql.svg",
+    },
+  ];
 
   const soft_skills = [
     {
-      "title": "Excellent Communication",
-      "description": "Ability to clearly convey ideas and collaborate effectively with others.",
-      "iconSrc": "/skills/communication.svg"
+      title: "Excellent Communication",
+      description:
+        "Ability to clearly convey ideas and collaborate effectively with others.",
+      iconSrc: "/skills/communication.svg",
     },
     {
-      "title": "Adaptive Learning",
-      "description": "Quick to grasp new concepts and adapt to changing environments.",
-      "iconSrc": "/skills/education.svg"
+      title: "Adaptive Learning",
+      description:
+        "Quick to grasp new concepts and adapt to changing environments.",
+      iconSrc: "/skills/education.svg",
     },
     {
-      "title": "Creativity and Innovation",
-      "description": "Ability to think outside the box and generate original ideas or solutions.",
-      "iconSrc": "/skills/window.svg"
-    }
-  ]
+      title: "Creativity and Innovation",
+      description:
+        "Ability to think outside the box and generate original ideas or solutions.",
+      iconSrc: "/skills/window.svg",
+    },
+  ];
 
   return (
     <div className="flex flex-col min-h-screen">

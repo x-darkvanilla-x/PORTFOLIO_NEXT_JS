@@ -73,21 +73,21 @@ export default function Home() {
               description="End-to-end healthcare and support, through each stage of family-building, women's health, employee assistance programs and condition management."
               imageUrl="/projects/hummcare.jpg"
               projectUrl="https://play.google.com/store/apps/details?id=hummcare.app&hl=en_IN&pli=1"
-              tags={[]}
+              tags={["React Native", "Android"]}
             />
             <ProjectCard
               title="Task Management App"
-              description="A React-based task management application with real-time updates and collaborative features."
-              imageUrl="/projects/taskapp.svg"
-              projectUrl="https://www.linkedin.com/posts/dipesh-adelkar-378ba3256_reactdevelopment-taskmanagement-visualappeal-activity-7202614170188488704-R6cT?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD8uJEwBEvPG7lAndAo0IuIGamk6yC-E3Xo"
-              tags={[]}
+              description="A stylish and user-friendly website for a makeup studio, designed with React and Tailwind CSS."
+              imageUrl="/projects/nuts.png"
+              projectUrl="https://nuts-eta.vercel.app/"
+              tags={["React", "TypeScript", "TailWind"]}
             />
             <ProjectCard
               title="Coaching Website"
               description="A modern Coaching website built with React.js and Tailwind CSS, featuring responsive design."
-              imageUrl="/projects/portfolio.svg"
-              projectUrl="https://ctbwebsite.netlify.app/"
-              tags={[]}
+              imageUrl="/projects/coaching.png"
+              projectUrl="https://www.cometobecoaching.com/"
+              tags={["React", "Tailwind"]}
             />
           </div>
         </div>

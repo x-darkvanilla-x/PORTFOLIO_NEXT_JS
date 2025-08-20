@@ -71,7 +71,7 @@ export default function Home() {
             <ProjectCard
               title="Humm Care"
               description="End-to-end healthcare and support, through each stage of family-building, women's health, employee assistance programs and condition management."
-              imageUrl="/projects/hummcare.jpg"
+              imageUrl="/projects/hummcare.png"
               projectUrl="https://play.google.com/store/apps/details?id=hummcare.app&hl=en_IN&pli=1"
               tags={["React Native", "Android"]}
             />

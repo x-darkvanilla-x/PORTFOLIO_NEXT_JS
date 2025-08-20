@@ -3,40 +3,60 @@ import ProjectCard from "@/components/ProjectCard";
 export default function Projects() {
   const projects = [
     {
-      title: "Portfolio Website",
-      description: "A modern portfolio website built with Next.js and Tailwind CSS, featuring responsive design and dark mode support.",
-      imageUrl: "/projects/portfolio.svg",
-      projectUrl: "https://github.com/yourusername/portfolio",
-      tags: ["Next.js", "React", "TypeScript", "Tailwind CSS"]
+      title: "Skincare Website UI",
+      description:
+        "A modern skincare website built with Next.js and Tailwind CSS, featuring responsive design and on scroll animations",
+      imageUrl: "/projects/skincare.png",
+      projectUrl: "https://skincare-website-roan.vercel.app/",
+      tags: [
+        "Next.js",
+        "React",
+        "TypeScript",
+        "Tailwind CSS",
+        "GSAP Animation",
+        "Figma",
+      ],
     },
     {
       title: "Coaching Website",
-      description: "A responsive coaching website built with Next.js and Tailwind CSS, featuring a modern design and interactive elements.",
-      imageUrl: "/projects/ecommerce.svg",
-      projectUrl: "https://github.com/yourusername/ecommerce",
-      tags: ["React", "Node.js", "TailWind", "Express"]
-    },
-    {
-      title: "Pizza App and Website",
-      description: "A pizza ordering website built with React and MongoDB, allowing users to place orders and track their deliveries.",
-      imageUrl: "/projects/taskapp.svg",
-      projectUrl: "https://github.com/x-darkvanilla-x/PizzaHub_Admin_Web",
-      tags: ["React", "MongoDB", "React Native", "Nodejs", "Express"]
+      description:
+        "A responsive coaching website built with React.js and Tailwind CSS, featuring a modern design and interactive elements.",
+      imageUrl: "/projects/coaching.png",
+      projectUrl: "https://www.cometobecoaching.com/",
+      tags: ["React", "TailWind CSS", "Figma"],
     },
     {
       title: "Healthcare Platform",
-      description: "A healthcare management system for scheduling appointments and managing patient records.",
-      imageUrl: "/projects/hummcare.jpg",
+      description:
+        "A healthcare management system for scheduling appointments and managing patient records.",
+      imageUrl: "/projects/hummcare.png",
       projectUrl: "https://github.com/yourusername/healthcare",
-      tags: ["React", "React Native", "TailWind", "Postman"]
+      tags: ["React", "React Native", "TailWind", "Postman"],
     },
     {
-        title: "Weather App",
-        description: "A weather application built with React and Tailwind CSS, providing real-time weather information for any location.",
-        imageUrl: "/projects/WeatherApp.png",
-        projectUrl: "https://github.com/x-darkvanilla-x/Weather-App",
-        tags: ["React", "TypeScript", "TailWind"]
-      }
+      title: "Makeup Studio Website",
+      description:
+        "A stylish and user-friendly website for a makeup studio, designed with React and Tailwind CSS. It showcases services, pricing, and portfolios with smooth UI interactions and responsive layouts.",
+      imageUrl: "/projects/nuts.png",
+      projectUrl: "https://nuts-eta.vercel.app/",
+      tags: ["React", "TypeScript", "TailWind"],
+    },
+    {
+      title: "Weather App",
+      description:
+        "A weather application built with React and Tailwind CSS, providing real-time weather information for any location.",
+      imageUrl: "/projects/WeatherApp.png",
+      projectUrl: "https://github.com/x-darkvanilla-x/Weather-App",
+      tags: ["React", "TypeScript", "TailWind"],
+    },
+    {
+      title: "Pizza App and Website",
+      description:
+        "A Pizza ordering website built with React and MongoDB, allowing users to place orders and track their deliveries.",
+      imageUrl: "/projects/taskapp.svg",
+      projectUrl: "https://github.com/x-darkvanilla-x",
+      tags: ["React", "MongoDB", "React Native", "Nodejs", "Express"],
+    },
   ];
 
   return (
